@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SERICO PROJECT">
+    <wb-module deploy-name="SERICO_PROJECT">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="SERICO_PROJECT"/>
-        <property name="java-output-path" value="/SERICO PROJECT/build/classes"/>
+        <property name="java-output-path" value="/SERICO_PROJECT/build/classes"/>
     </wb-module>
 </project-modules>
