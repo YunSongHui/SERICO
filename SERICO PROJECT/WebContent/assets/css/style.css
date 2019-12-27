@@ -1095,7 +1095,7 @@ blockquote {
 
 /* site-section */
 .site-section {
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 50px;
 }
 
@@ -1106,7 +1106,7 @@ blockquote {
 .section-title {
   position: relative;
   font-weight: 700;
-  padding: 0 0 30px 0;
+  padding: 35px 0 35px 0;
   margin: 0;
   font-family: 'Nanum Myeongjo', serif;
 }
