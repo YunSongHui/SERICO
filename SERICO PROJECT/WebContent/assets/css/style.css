@@ -1008,7 +1008,7 @@ blockquote {
 /* HERO
 ================================================== */
 .hero {
-  background: url(../img/main-pic.jpg) center no-repeat;
+  background: url(../img/main.jpg) center no-repeat;
   height: 100%;
   width: 100%;
   display: table;
@@ -1050,11 +1050,12 @@ blockquote {
   position: relative;
 }
 
-.hero-text h1 {
+.hero-text h3 {
+  font-family: 'Nanum Myeongjo', serif;
   max-width: 790px;
   width: 100%;
   padding: 0 15px;
-  font-size: 64px;
+  font-size: 34px;
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
