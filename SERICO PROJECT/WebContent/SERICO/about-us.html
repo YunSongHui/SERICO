@@ -45,9 +45,9 @@
     <![endif]-->
 </head>
 
-<body>
+<body id="portfolio">
 
-	<header id="masthead" class="site-header" data-anchor-target=".hero" data-top="background: rgba(59,58,54,0); border-bottom-color: rgba(226,226,226,0);" data-top-bottom="background: rgba(59,58,54,1); border-bottom-color: rgba(226,226,226,1);">
+    <header id="masthead" class="site-header site-header-fill">
 
         <nav id="primary-navigation" class="site-navigation">
 
@@ -55,9 +55,7 @@
 
                 <div class="navbar-header">
                     
-                    <a href="index.html">
-                    	<img src ="../assets/img/logo-text.png" class="header-logo">
-                    </a>
+                    <a href="index.html" class="site-title yellow-text">Business<span class="white-text">Perfect</span></a>
 
                 </div><!-- /.navbar-header -->
 
@@ -67,21 +65,19 @@
 
                         <li><a href="index.html">Home</a></li>
                         
-                        <li class="active"><a href="about-us.html">소 개</a></li>
-                        
-                        <li class="dropdown">
-                            <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Blog <i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
+                        <li class="dropdown active">
+                            <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">소 개 <i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="blog-post.html">Blog Post</a></li>
-                            </ul><!-- /.dropdown-menu -->
-                        </li><!-- /.dropdown -->
+                            </ul>
+                        </li>
                         
                         <li class="dropdown">
                             <a href="portfolio.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Portfolio <i class="fa fa-angle-down hidden-xs" aria-hidden="true"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="portfolio-item.html">Portfolio Item</a></li>                              
-                            </ul><!-- /.dropdown-menu -->
-                        </li><!-- /.dropdown -->
+                                <li><a href="portfolio-item.html">Portfolio Item</a></li>                           
+                            </ul>
+                        </li>
                         
                     </ul><!-- /.navbar-nav -->
 
@@ -92,326 +88,255 @@
         </nav><!-- /.site-navigation -->
         
     </header><!-- /#masthead -->
-    
-    <div class="hero background-overlay">
-    
-        <div class="hero-text">
-            <h3 >오랜 아름다움을 잇는 새로운 비단길</h3>
-        </div> <!-- /.hero-text -->
-        
-        <div class="hero-arrow">
-            <a class="scrollTo" href="#"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
-        </div><!-- /.hero-arrow -->
 
-    </div><!-- /.hero -->
-    
     <main id="main" class="site-main">
 
-        <section class="site-section-small section-who-we-are">
+        <section class="site-section-small section-blog-post">
 
             <div class="container">
 
-                <h2 class="section-title text-center pb-80">Who We Are</h2>
-
-                <div class="row">
-
-                    <div class="col-sm-6">
-                        <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
-                    </div>
-
-                    <div class="col-sm-6">
-                        <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
-                    </div>
-
-                </div>
-
                 <div class="text-center">
 
-                    <div class="row">
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <h4 class="small-title">Cups of Coffe</h4>
-                            <p class="counter" data-to="1520" data-speed="2000">1520</p>
-                        </div><!-- /.counter-item -->
-                        
-                        <div class="col-sm-3 col-xs-6">
-                            <h4 class="small-title">Happy Clients</h4>
-                            <p class="counter" data-to="426" data-speed="2000">426</p>
-                         </div><!-- /.counter-item -->
+                    <h1 class="section-title-big">Blog Post</h1>
 
-                        <div class="col-sm-3 col-xs-6">
-                            <h4 class="small-title">Projects Done</h4>
-                            <p class="counter" data-to="512" data-speed="2000">512</p>
-                        </div><!-- /.counter-item -->
-
-                        <div class="col-sm-3 col-xs-6">
-                            <h4 class="small-title">Ideas</h4>
-                            <p class="counter" data-to="423" data-speed="2000">423</p>
-                        </div><!-- /.counter-item -->
-
-                    </div>
-
-                </div>
-
-            </div>
-            
-        </section><!-- /.section-who-we-are -->
-
-        <section class="section-we-are-creative">
-
-            <div class="container-fluid">
-
-                <div class="row">
-
-                    <div class="col-sm-6 hidden-xs">
-                        <img class="img-carousel" src="../assets/img/we-are-creative.jpg" alt="We are creative">
-                    </div>
-                    
-                    <div class="col-sm-6 project yellow-bg">
-
-                        <div class="project-content">
-
-                            <h3 class="section-title">We Are Creative</h3>
-                            <p class="small-title mb-30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nunc nunc. Ut consectetur felis sit amet fermentum accumsan. Vivamus ligula diam, aliquet id fringilla nec, elementum malesuada mauris. Nulla eu vehicula velit. Donec porta imperdiet luctus.</p> 
-                            <a href="#" class="white-text">Join Us</a>
-                            
-                        </div> <!-- /.project-content-->  
-
-                    </div>
+                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> <!-- /.section-text -->
                 
-                </div>
+                </div><!-- /.text-center -->
+
+
+                <div class="row">
+
+                    <div class="col-md-9">
+
+                        <div class="row">
+
+                            <div class="col-md-12">
+
+                                <img class="img-carousel post-img" src="../assets/img/portfolio-1.jpg" alt="latest-news-1">
+
+                                <div class="post-content">
+
+                                    <h2 class="post-title">World's Successfull Entreprenaurs</h2>
+                                    <ul class="post-meta list-unstyled">
+                                        <li><a href="#">Business</a></li>
+                                        <li><a href="#">Sept 19, 2016</a></li>
+                                        <li><a href="#Comments">15 Comments</a></li>
+                                    </ul><!-- /.post-meta -->
+                                            
+                                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                </div><!-- /.post-content -->
+
+                                <div class="social-links">
+                                    <p class="small-title mb-10">Share This:</p>
+                                    <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
+                                    <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
+                                    <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
+                                    <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
+                                    <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
+                                </div><!-- /.social-links -->
+
+                                <div class="post-information">
+
+                                    <img class="img-carousel" src="../assets/img/employee-1.jpg" alt="">
+
+                                    <div class="post-information-content">
+
+                                        <p class="post-author-name">Mark Henderson</p>
+                                        <p class="post-author-position">Owner of <span class="yellow-text">BusinessPerfect</span></p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        
+                                    </div><!-- /.post-information-content -->
+
+                                </div><!-- /.post-information -->
+                                    
+                                <div id="Comments" class="post-comments">
+
+                                    <h3>2 Comments</h3>
+
+                                    <div class="post-comment">
+
+                                        <img class="img-carousel" src="../assets/img/employee-3.jpg" alt="">
+
+                                        <div class="post-comment-content">
+
+                                            <p class="post-comment-author-name">Richard Dawson</p>
+                                            <p class="post-comment-date">Jan 2, at 19:00</p>
+                                            <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+
+                                            <a href="#">Reply</a>
+                                            
+                                        </div><!-- /.post-comment-content -->
+                                        
+                                    </div><!-- /.post-comment -->
+
+                                    <div class="post-comment replied">
+
+                                        <img class="img-carousel" src="../assets/img/employee-2.jpg" alt="">
+
+                                        <div class="post-comment-content">
+
+                                            <p class="post-comment-author-name">Cindy Bell</p>
+                                            <p class="post-comment-date">Jan 2, at 19:00</p>
+                                            <p class="comment">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet</p>
+
+                                            <a class="yellow-text" href="#">Reply</a>   
+                                            
+                                        </div><!-- /.post-comment-content -->
+                                        
+                                    </div><!-- /.post-comment -->
+                                    
+                                    <div class="leave-comment">
+
+                                        <h3>Leave a comment</h3>
+
+                                        <form class="form-horizontal">
+
+                                            <div class="row">
+
+                                                <div class="col-sm-6">
+                                                    <input class="form-control" type="text" name="name" required placeholder="Name *">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <input class="form-control" type="email" name="email" required placeholder="Email *">
+                                                </div>
+                                                <div class="col-sm-12">
+                                                    <textarea class="form-control" placeholder="Comment"></textarea>
+                                                </div>
+                                                <div class="col-sm-12 text-right">
+                                                    <button type="submit" class="btn btn-medium btn-yellow">Post Comment</button>
+                                                </div>  
+
+                                            </div>
+                                        
+                                        </form>
+
+                                    </div><!-- /.leave-comment -->
+
+                                </div><!-- /.post-comments -->
+                                
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <aside class="col-md-3">
+
+                        <div class="sidebar">
+                            
+                            <div class="widget search-form">
+                                <form>
+                                    <input class="form-control" type="search" placeholder="Search">
+                                    <button type="submit">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>  
+                                </form>
+                            </div><!-- /.search-form -->
+
+                            <div class="widget widget-categories">
+                                <h4 class="widget-title">Categories</h4>
+
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">Photograpy</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Typography</a></li>
+                                    <li><a href="#">Fashion</a></li>
+                                    
+                                </ul><!-- /.list-unstyled -->
+                                
+                            </div><!-- /.widget-categories -->
+
+                            <div class="widget widget-latest-posts">
+                                <h4 class="widget-title">Latest Posts</h4>
+
+                                <ul class="list-unstyled posts-list">
+
+                                    <li>
+                                        <a href="blog-post.html">
+                                            <div class="widget-thumb">
+                                                <img class="img-carousel" src="../assets/img/portfolio-7.jpg" alt="">
+                                            </div>
+                                            <div class="widget-post-info">
+                                                <h4 class="widget-post-title">Business Perfect is the best Free Theme</h4>
+                                                <p class="widget-post-date">Sep 25, 2015</p> 
+                                            </div><!-- /.widget-post-info -->
+                                        </a>
+                                    </li><!-- /.latest-post -->
+
+                                    <li>
+                                        <a href="blog-post.html">
+                                            <div class="widget-thumb">
+                                                <img class="img-carousel" src="../assets/img/portfolio-8.jpg" alt="">
+                                            </div>
+                                            <div class="widget-post-info">
+                                                <h4 class="widget-post-title">We provide unique solutions</h4>
+                                                <p class="widget-post-date">Sep 23, 2015</p>
+                                            </div><!-- /.widget-post-info -->
+                                            
+                                        </a>
+                                    </li><!-- /.latest-post -->
+
+                                    <li>
+                                        <a href="blog-post.html">
+                                            <div class="widget-thumb">
+                                                <img class="img-carousel" src="../assets/img/portfolio-9.jpg" alt="">
+                                            </div>
+                                            <div class="widget-post-info">
+                                                <h4 class="widget-post-title">We are creative minds</h4>
+                                                <p class="widget-post-date">Sep 22, 2015</p>
+                                            </div><!-- /.widget-post-info -->
+                                        </a>
+                                    </li><!-- /.latest-post -->
+
+                                </ul>
+                                
+                            </div><!-- /.widget-latest-posts -->
+
+                            <div class="widget widget-tags">
+                                <h4 class="widget-title">Tags</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Multipurpose</a></li>
+                                    <li><a href="#">Creative</a></li>
+                                    <li><a href="#">Elegant</a></li>
+                                    <li><a href="#">Clean</a></li>
+                                    <li><a href="#">Modern</a></li>
+                                    <li><a href="#">Responsive</a></li>
+                                    <li><a href="#">Wordpress</a></li>
+                                    <li><a href="#">Corporate</a></li>
+                                </ul>
+                            </div><!-- /.widget-tags -->
+                            
+                        </div><!-- /.sidebar -->
+                        
+                    </aside>
+
+                </div>  
 
             </div>
             
-        </section><!-- /.section-we-are-creative -->
+        </section><!-- /.section-blog-post -->
 
-        <section class="site-section-small section-team">
+        <section class="site-section-small section-work-with-us yellow-bg text-center">
 
             <div class="container">
 
-                <div class="text-center">
+                <p class="section-title-small white-text mb-50">Coming together is a beginning, keeping together is progress, working together is success.</p><!-- /.section-title-small -->
 
-                    <h3 class="section-title">Super Team</h3>
-                    <p class="section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-                </div>
-                                    
-                <div class="row">
-
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="carousel carousel-sync one-slide-slider slide" id="oneSlideSlider">
-                            <div class="carousel-inner">
-                                    <div class="item active">
-                                        <div class="col-sm-12">
-                                            <div class="team-member">
-                                                <div class="team-member-img">
-                                                    <img class="img-carousel" src="../assets/img/employee-1.jpg" alt="">
-                                                </div><!-- /.team-member-img -->
-                                                <div class="team-member-info">
-                                                    <h4 class="team-member-name">Mark Henderson</h4>
-                                                    <h5 class="team-member-position">CEO</h5>
-                                                    <p class="team-member-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    <div class="social-links">
-                                                        <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                                                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
-                                                    </div><!-- /.social-links -->
-                                                </div><!-- /.team-member-info -->
-                                            </div><!-- /.team-member -->
-                                        </div>
-                                    </div><!-- /.item -->
-                                    <div class="item">
-                                        <div class="col-sm-12">
-                                            <div class="team-member">
-                                                <div class="team-member-img">
-                                                    <img class="img-carousel" src="../assets/img/employee-2.jpg" alt="">
-                                                </div><!-- /.team-member-img -->
-                                                <div class="team-member-info">
-                                                    <h4 class="team-member-name">Linda Smith</h4>
-                                                    <h5 class="team-member-position">Human Resources</h5>
-                                                    <p class="team-member-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    <div class="social-links">
-                                                        <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                                                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
-                                                    </div><!-- /.social-links -->
-                                                </div><!-- /.team-member-info -->
-                                            </div><!-- /.team-member -->
-                                        </div>
-                                    </div><!-- /.item -->
-                                    <div class="item">
-                                        <div class="col-sm-12">
-                                            <div class="team-member">
-                                                <div class="team-member-img">
-                                                    <img class="img-carousel" src="../assets/img/employee-3.jpg" alt="">
-                                                </div><!-- /.team-member-img -->
-                                                <div class="team-member-info">
-                                                    <h4 class="team-member-name">Matt Ryan</h4>
-                                                    <h5 class="team-member-position">Coordinator</h5>
-                                                    <p class="team-member-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    <div class="social-links">
-                                                        <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                                                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
-                                                    </div><!-- /.social-links -->
-                                                </div><!-- /.team-member-info -->
-                                            </div><!-- /.team-member -->
-                                        </div>
-                                    </div><!-- /.item -->
-                                    <div class="item">
-                                        <div class="col-sm-12">
-                                            <div class="team-member">
-                                                <div class="team-member-img">
-                                                    <img class="img-carousel" src="../assets/img/employee-4.jpg" alt="">
-                                                </div><!-- /.team-member-img -->
-                                                <div class="team-member-info">
-                                                    <h4 class="team-member-name">Cindy Bell</h4>
-                                                    <h5 class="team-member-position">PR Marketing</h5>
-                                                    <p class="team-member-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    <div class="social-links">
-                                                        <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                                                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
-                                                    </div><!-- /.social-links -->
-                                                </div><!-- /.team-member-info -->
-                                            </div><!-- /.team-member -->
-                                        </div>
-                                    </div><!-- /.item -->
-                                    <div class="item">
-                                        <div class="col-sm-12">
-                                            <div class="team-member">
-                                                <div class="team-member-img">
-                                                    <img class="img-carousel" src="../assets/img/employee-5.jpg" alt="">
-                                                </div><!-- /.team-member-img -->
-                                                <div class="team-member-info">
-                                                    <h4 class="team-member-name">Frank Dawson</h4>
-                                                    <h5 class="team-member-position">COO</h5>
-                                                    <p class="team-member-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                    <div class="social-links">
-                                                        <a class="twitter-bg" href="#"><i class="fa fa-twitter"></i></a>
-                                                        <a class="facebook-bg" href="#"><i class="fa fa-facebook"></i></a>
-                                                        <a class="google-plus-bg" href="#"><i class="fa fa-google-plus"></i></a>
-                                                        <a class="linkedin-bg" href="#"><i class="fa fa-linkedin"></i></a>
-                                                        <a class="instagram-bg" href="#"><i class="fa fa-instagram"></i></a>
-                                                    </div><!-- /.social-links -->
-                                                </div><!-- /.team-member-info -->
-                                            </div><!-- /.team-member -->
-                                        </div>
-                                    </div><!-- /.item -->
-                            </div><!-- /.carousel-inner -->
-                        </div><!-- /.carousel -->
-                    </div>
-
-                    <div class="col-md-8 col-md-offset-2 hidden-xs">
-                        <div class="carousel carousel-sync four-slides-slider multi-item-carousel slide" data-interval="false" id="fourSlidesSlider">
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="col-sm-4 col-md-3">
-                                      <img src="../assets/img/employee-2.jpg" alt="" class="img-carousel">
-                                    </div>
-                                </div><!-- /.item -->
-                                <div class="item">
-                                    <div class="col-sm-4 col-md-3">
-                                      <img src="../assets/img/employee-3.jpg" alt="" class="img-carousel">
-                                    </div>
-                                </div><!-- /.item -->
-                                <div class="item">
-                                    <div class="col-sm-4 col-md-3">
-                                      <img src="../assets/img/employee-4.jpg" alt="" class="img-carousel">
-                                    </div>
-                                </div><!-- /.item -->
-                                <div class="item">
-                                    <div class="col-sm-4 col-md-3">
-                                      <img src="../assets/img/employee-5.jpg" alt="" class="img-carousel">
-                                    </div>
-                                </div><!-- /.item -->
-                                <div class="item">
-                                    <div class="col-sm-4 col-md-3">
-                                      <img src="../assets/img/employee-1.jpg" alt="" class="img-carousel">
-                                    </div>
-                                </div><!-- /.item -->
-                            </div><!-- /.carousel-inner -->
-                        </div><!-- /.multi-item-carousel -->
-                    </div>
-
-                    <div class="col-md-12">
-
-                        <div class="multi-item-controls text-center">
-
-                            <a href="#fourSlidesSlider" class="left btn btn-gray-border carousel-control" data-slide="prev">
-                            <i class="fa fa-angle-left" aria-hidden="true"></i>
-                            </a>
-                            <a href="#fourSlidesSlider" class="right btn btn-gray-border carousel-control" data-slide="next">
-                            <i class="fa fa-angle-right" aria-hidden="true"></i>
-                            </a>
-                        
-                        </div><!-- /.multi-item-controls -->
-
-                    </div>
-
-                </div>
+                <a class="btn" href="#">Start Now</a>
 
             </div>
             
-        </section><!-- /.section-team -->
-
-        <section class="site-section section-clients-2 light-gray-bg">
-
-            <div class="container text-center">
-
-                <h3 class="section-title mb-30">Happy Clients</h3>
-
-                <div class="row">
-
-                    <div class="section-clients-2-testimonials">
-
-                        <div class="col-md-12"> 
-
-                            <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> 
-
-                                <img src="../assets/img/testimonial-1.jpg" alt="">
-
-                                <div class="testimonial-owner">
-                                    <p>Linda Smith |</p>
-                                    <p class="italic-text"> Owner of Company</p>
-                                </div><!-- /.testimonial-owner -->
-                                
-                            </div><!-- /.testimonial-content -->
-
-                        </div>
-
-                        <div class="col-md-12"> 
-
-                            <div class="testimonial-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> 
-
-                                <img src="../assets/img/testimonial-2.jpg" alt="">
-
-                                <div class="testimonial-owner">
-                                    <p>Richard Smith |</p>
-                                    <p class="italic-text"> Owner of Company</p>
-                                </div><!-- /.testimonial-owner -->
-                                
-                            </div><!-- /.testimonial-content -->
-
-                        </div>
-
-                    </div><!-- /.testimonials -->
-
-                </div>
-
-            </div>
-            
-        </section><!-- /.section-clients-2 -->
+        </section><!-- /.section-work-with-us -->
 
         <section class="social-networks">
 
@@ -426,7 +351,7 @@
  
                 </div>
                 
-            </div>
+            </div><!-- /.container-fluid -->
             
         </section><!-- /.social-networks -->
 
@@ -459,7 +384,7 @@
                             <li>Phone: <a href="tel:+15417543010">+1-541-754-3010</a></li>
                             <li>Email: <a href="mailto:hello@businessperfect.com">hello@businessperfect.com</a></li>
                             <li>Fax: <a href="tel:+15417543010">+1-541-754-3010</a></li>
-                        </ul>
+                        </ul><!-- /.list-unstyled -->
                     </div>
                     
                 </div>
@@ -469,10 +394,10 @@
                     <div class="mb-xs-20">
                         <h4 class="small-title">Links</h4>
                         <ul class="list-unstyled">
-                            <li class="active"><a href="about-us.html">About Us</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
                             <li><a href="portfolio.html">Portfolio</a></li>
                             <li><a href="contact.html">Contact</a></li>
-                        </ul>
+                        </ul><!-- /.list-unstyled -->
                     </div>
                     
                 </div>
@@ -485,7 +410,7 @@
                             <li>BusinessPerfect</li>
                             <li>848 Boston Street Hayward,</li>
                             <li>CA 94544</li>
-                        </ul>
+                        </ul><!-- /.list-unstyled -->
                     </div>
 
                 </div>
