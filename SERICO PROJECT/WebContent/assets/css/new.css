@@ -2,3 +2,8 @@
 	height: 32px;
 }
 
+.ci-hr{
+	width: 10px;
+	color: #ffd500;
+	border: 5px solid #ffd500;
+}
