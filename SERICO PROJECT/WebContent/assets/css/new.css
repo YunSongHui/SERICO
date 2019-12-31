@@ -3,7 +3,16 @@
 }
 
 .ci-hr{
-	width: 50px;
+	width: 100px;
 	color: #ffd500;
-	border: 1px solid #ffd500;
+	border: thin solid #ffd500;
+}
+
+.logocolor{
+	display:inline-block;
+	width:80px;
+}
+
+.color-chart{
+	display:inline-block;
 }
