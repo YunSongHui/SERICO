@@ -1179,7 +1179,6 @@ blockquote {
 }
 
 .multi-item-controls {
-  margin: 60px 0;
   height: 45px;
 }
 
@@ -1309,8 +1308,7 @@ display: none;
 }
 
 .team-member-position {
-  color: #ffd500; 
-  font-style: italic;
+  color: #ffd500;
 }
 
 .team-member-text {
