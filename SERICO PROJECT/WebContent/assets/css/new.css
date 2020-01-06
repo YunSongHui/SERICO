@@ -29,3 +29,13 @@
 	padding-top:100px;
 	font-family: 'Nanum Myeongjo', serif;
 }
+
+.history-section{
+	padding : 120px 120px 100px 120px;
+}
+
+.team-history{
+	text-align:left;
+	float:left;
+	padding:0 30px;
+}
